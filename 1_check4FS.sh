@@ -1,4 +1,4 @@
-cd /Volumes/UCR-KINDLab/danag/OngoingAnalyses/Bells_Scream/youth_scream/
+cd $SUBJECTS_DIR
 
 for sub in `cat subjList.txt`; do
 
