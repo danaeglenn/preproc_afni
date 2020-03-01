@@ -11,9 +11,3 @@ mv ${sub}_anat.nii ${sub}/anat
 done
 
 ls *.nii | parallel --jobs 8 recon-all -s {.} -i {} -all -qcache
-
-#rm *.nii
-
-#for sub in `cat subjList.txt`; do
-#mv ${sub}_anat.nii ${sub}
-#done
