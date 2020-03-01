@@ -5,7 +5,7 @@ set group = bells
 set censorLimit = 1
 set suffix = Feb2020_MV_${censorLimit}mmOutlierCensored
 
-cd /Volumes/UCR-KINDLab/danag/OngoingAnalyses/Bells_Scream/data/${age}_${group}
+cd $SUBJECTS_DIR/${age}_${group}
 
 set subjects=(`cat subjList_test.txt`)
 
