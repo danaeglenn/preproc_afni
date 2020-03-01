@@ -10,7 +10,6 @@ cp ${sub}_anat.nii ../FS_youth_bells
 mv ${sub}_anat.nii ${sub}/anat
 done
 
-export SUBJECTS_DIR=/Volumes/UCR-KINDLab/danag/OngoingAnalyses/Bells_Scream/adult_scream
 ls *.nii | parallel --jobs 8 recon-all -s {.} -i {} -all -qcache
 
 #rm *.nii
