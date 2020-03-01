@@ -4,7 +4,7 @@ set age = adult
 set censorLimit = 1
 set suffix = Feb2020_UV_${censorLimit}mmOutlierCensored
 
-cd /Volumes/UCR-KINDLab/danag/OngoingAnalyses/Bells_Scream/data/${age}_bells
+cd $SUBJECTS_DIR
 
 set subjects=(`cat subjList_test.txt`)
 
